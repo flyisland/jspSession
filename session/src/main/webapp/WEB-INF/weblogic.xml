@@ -1,0 +1,8 @@
+<!DOCTYPE weblogic-web-app PUBLIC "-//BEA Systems, Inc.//DTD Web Application 9.1//EN" "http://www.bea.com/servers/wls810/dtd/weblogic
+810-web-jar.dtd">
+<weblogic-web-app>
+    <context-root>/session</context-root>
+    <session-descriptor>
+      <persistent-store-type>replicated_if_clustered</persistent-store-type>
+    </session-descriptor>
+</weblogic-web-app>

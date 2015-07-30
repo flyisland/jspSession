@@ -1,0 +1,12 @@
+subprojects {
+  apply plugin: 'war'
+  apply plugin: 'jetty'
+
+  group = 'org.flyisland.examples'
+  version = '0.1'
+  buildDir = ramDisk + "GradleBuild/${name}"
+
+  repositories {
+      mavenCentral()
+  }
+}
